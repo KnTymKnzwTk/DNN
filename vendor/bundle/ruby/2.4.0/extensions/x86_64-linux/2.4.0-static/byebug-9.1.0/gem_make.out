@@ -1,0 +1,21 @@
+current directory: /home/ubuntu/work/test_prj/newapp/vendor/bundle/ruby/2.4.0/gems/byebug-9.1.0/ext/byebug
+/home/ubuntu/.rbenv/versions/2.4.2/bin/ruby -r ./siteconf20171123-2326-17v48xk.rb extconf.rb
+creating Makefile
+
+current directory: /home/ubuntu/work/test_prj/newapp/vendor/bundle/ruby/2.4.0/gems/byebug-9.1.0/ext/byebug
+make "DESTDIR=" clean
+
+current directory: /home/ubuntu/work/test_prj/newapp/vendor/bundle/ruby/2.4.0/gems/byebug-9.1.0/ext/byebug
+make "DESTDIR="
+compiling breakpoint.c
+compiling byebug.c
+compiling context.c
+compiling locker.c
+compiling threads.c
+linking shared-object byebug/byebug.so
+
+current directory: /home/ubuntu/work/test_prj/newapp/vendor/bundle/ruby/2.4.0/gems/byebug-9.1.0/ext/byebug
+make "DESTDIR=" install
+make: Warning: File 'byebug.so' has modification time 0.64 s in the future
+/usr/bin/install -c -m 0755 byebug.so ./.gem.20171123-2326-1sfeh26/byebug
+make: warning:  Clock skew detected.  Your build may be incomplete.

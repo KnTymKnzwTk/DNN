@@ -1,0 +1,24 @@
+current directory: /home/ubuntu/work/test_prj/newapp/vendor/bundle/ruby/2.4.0/gems/unicorn-5.3.1/ext/unicorn_http
+/home/ubuntu/.rbenv/versions/2.4.2/bin/ruby -r ./siteconf20171123-2326-1xyj6eu.rb extconf.rb
+checking for SIZEOF_OFF_T in ruby.h... yes
+checking for SIZEOF_SIZE_T in ruby.h... yes
+checking for SIZEOF_LONG in ruby.h... yes
+checking for rb_str_set_len() in ruby.h... yes
+checking for rb_hash_clear() in ruby.h... yes
+checking for gmtime_r() in time.h... yes
+creating Makefile
+
+current directory: /home/ubuntu/work/test_prj/newapp/vendor/bundle/ruby/2.4.0/gems/unicorn-5.3.1/ext/unicorn_http
+make "DESTDIR=" clean
+
+current directory: /home/ubuntu/work/test_prj/newapp/vendor/bundle/ruby/2.4.0/gems/unicorn-5.3.1/ext/unicorn_http
+make "DESTDIR="
+compiling httpdate.c
+compiling unicorn_http.c
+linking shared-object unicorn_http.so
+
+current directory: /home/ubuntu/work/test_prj/newapp/vendor/bundle/ruby/2.4.0/gems/unicorn-5.3.1/ext/unicorn_http
+make "DESTDIR=" install
+make: Warning: File 'unicorn_http.so' has modification time 0.61 s in the future
+/usr/bin/install -c -m 0755 unicorn_http.so ./.gem.20171123-2326-v2c2l9
+make: warning:  Clock skew detected.  Your build may be incomplete.

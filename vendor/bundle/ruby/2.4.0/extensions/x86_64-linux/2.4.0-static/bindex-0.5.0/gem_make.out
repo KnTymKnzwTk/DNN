@@ -1,0 +1,17 @@
+current directory: /home/ubuntu/work/test_prj/newapp/vendor/bundle/ruby/2.4.0/gems/bindex-0.5.0/ext/bindex
+/home/ubuntu/.rbenv/versions/2.4.2/bin/ruby -r ./siteconf20171123-2326-2bgq0m.rb extconf.rb
+creating Makefile
+
+current directory: /home/ubuntu/work/test_prj/newapp/vendor/bundle/ruby/2.4.0/gems/bindex-0.5.0/ext/bindex
+make "DESTDIR=" clean
+
+current directory: /home/ubuntu/work/test_prj/newapp/vendor/bundle/ruby/2.4.0/gems/bindex-0.5.0/ext/bindex
+make "DESTDIR="
+compiling cruby.c
+linking shared-object bindex/cruby.so
+
+current directory: /home/ubuntu/work/test_prj/newapp/vendor/bundle/ruby/2.4.0/gems/bindex-0.5.0/ext/bindex
+make "DESTDIR=" install
+make: Warning: File 'cruby.so' has modification time 0.67 s in the future
+/usr/bin/install -c -m 0755 cruby.so ./.gem.20171123-2326-yq1bco/bindex
+make: warning:  Clock skew detected.  Your build may be incomplete.
